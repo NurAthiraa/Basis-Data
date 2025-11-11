@@ -150,15 +150,25 @@ WHERE nama LIKE 'A%';
 
 SELECT * FROM buku
 WHERE tahun > 2018;
+
+SELECT * FROM peminjaman
+WHERE id_anggota = 5;
+
 ```
 
  BETWEEN
 ```sql
 SELECT * FROM buku
-WHERE tahun BETWEEN 2016 AND 2020;
+WHERE tahun_terbit BETWEEN 2019 AND 2022;
 
-SELECT * FROM pinjam
-WHERE tanggal_pinjam BETWEEN '2024-01-05' AND '2024-01-12';
+SELECT * FROM anggota
+WHERE id_anggota BETWEEN 5 AND 10;
+
+SELECT * FROM peminjaman
+WHERE tanggal_pinjam BETWEEN '2025-01-05' AND '2025-01-10';
+
+
+
 ```
 
 ---
