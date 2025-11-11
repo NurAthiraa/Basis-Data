@@ -1,15 +1,8 @@
-Microsoft Windows [Version 10.0.19045.6456]
-(c) Microsoft Corporation. All rights reserved.
+Nama : Nur athira 
+Nim. : D0224036
+Kls. : INF D2024
 
-C:\xampp\mysql\bin>mysql -u root -p
-Enter password:
-Welcome to the MariaDB monitor.  Commands end with ; or \g.
-Your MariaDB connection id is 9
-Server version: 10.4.32-MariaDB mariadb.org binary distribution
 
-Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
-
-Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 MariaDB [(none)]> CREATE DATABASE perpustakaan;
 Query OK, 1 row affected (0.003 sec)
