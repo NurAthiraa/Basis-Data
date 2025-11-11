@@ -27,7 +27,7 @@ Repository ini berisi tugas Basis Data yang mencakup:
 - penulis (VARCHAR)  
 - tahun (INT)
 
- Tabel: pinjam
+ Tabel: peminjaman 
 - id_pinjam (INT, PRIMARY KEY)  
 - id_anggota (INT, FOREIGN KEY)  
 - id_buku (INT, FOREIGN KEY)  
@@ -61,7 +61,7 @@ CREATE TABLE buku (
   tahun INT
 );
 
-CREATE TABLE pinjam (
+CREATE TABLE peminjaman (
   id_pinjam INT PRIMARY KEY,
   id_anggota INT,
   id_buku INT,
@@ -119,7 +119,7 @@ INSERT INTO buku VALUES
 
 ---
 
- Tabel **pinjam**
+ Tabel **peminjaman**
 ```sql
 INSERT INTO pinjam VALUES
 (1, 1, 1, '2024-01-01'),
